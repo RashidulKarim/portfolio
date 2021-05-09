@@ -1,0 +1,21 @@
+.contact-title{
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    color: gray;
+}
+.contact-info{
+    color: gray;
+}
+.footer-icon{
+    cursor: pointer;
+    transition: all ease .5s;
+}
+.footer-icon:hover{
+    color: #813AFE;
+}
+
+.copy-write{
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}

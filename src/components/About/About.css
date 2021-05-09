@@ -1,0 +1,27 @@
+.about-img{
+    border-radius: 4px;
+    width: 300px !important;
+    margin-left: 2rem;
+}
+.custom-border{
+    width: 200px;
+    height: 300px;
+    margin-top: -15rem;
+    border: 2px dashed #813AFE;
+}
+.experience{
+    width: 130px;
+    height: 120px;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: -8.5rem;
+    margin-left: -3.8rem;
+    position: relative;
+    background-color: #813AFE;
+}
+.socialLink{
+    margin: 8px 8px;
+    color: #ffffff;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.SummaryBanner{
+    background-color: #FAFAFA;
+    min-height: 21.875rem;
+}
+.countNumber{
+    color: #000000;
+    font-family: 'Montserreat',sans-serif;
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+.countTitle{
+    color: #000000;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    font-size: 1.375rem;
+}
+.countSection{
+    margin-top: 7.5%;
+}
+.cardTitle{
+    font-weight: 600;
+    font-size: 1.375rem;
+    color: #2B2B2B;
+    font-family: 'Raleway',sans-serif;
+}
+.cardSubTitle{
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    color: #2B2B2B;
+    font-family: 'Montserreat',sans-serif;
+}
+.icon{
+    font-size: 3rem;
+    color: #813AFE;
+    margin-bottom: 1rem;
+}

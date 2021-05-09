@@ -1,0 +1,30 @@
+.navBackground{
+    background-color: #F8F9FA;
+    border-bottom: 1px solid #F0F0F0;
+    border-radius: 4px;
+}
+.navbar-expand-lg .navbar-nav {
+    margin-right: 80px;
+}
+.logo-title{
+    color: #000000 !important;
+    font-weight: 600;
+}
+.navItem{
+    font-size: 1rem;
+    margin: 8px 10px;
+    text-decoration: none !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400 !important;
+    color: #000000 !important;
+    transition: all 0.4s ease;
+}
+.navItem:hover{
+    color: #28A745 !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #813AFE !important;
+    border-color: #813AFE !important;
+}

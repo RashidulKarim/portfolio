@@ -1,0 +1,54 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.topFixedBanner{
+    background-image: url("https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926__340.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topBannerOverlay{
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
+.topContent{
+    margin-top: 9rem !important;
+}
+
+.btn-outline-primary {
+    color: #813AFE !important;
+    border-color: #813AFE !important;
+    transition: all ease .5s;
+}
+.btn-outline-primary:hover{
+    background-color: #813AFE !important;
+    color: white !important;
+}
+.topContent{
+    margin-top: 5rem;
+}
+.banner-img{
+    margin-left: 7rem;
+}
+.hello-title{
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.name-title{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 58px;
+}
+.skill-title{
+    font-size: 46px;
+    font-weight: 500;
+    color: white;
+}
+.text-des{
+    color: gray;
+}
