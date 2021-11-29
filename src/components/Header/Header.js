@@ -1,7 +1,7 @@
 import React from 'react';
-import {Button, Container, Nav, Navbar} from "react-bootstrap";
+import { Button, Container, Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import './Header.css';
-import {Link} from "react-router-dom";
 
 const Header = () => {
     return (
@@ -20,7 +20,7 @@ const Header = () => {
                                 <Link to="/blog"><Nav.Link className="navItem" href="#link">Blog</Nav.Link></Link>
                                 <Link to="/contact"><Nav.Link className="navItem" href="#link">Contact</Nav.Link></Link>
                             </Nav>
-                            <a href="https://drive.google.com/file/d/1UXo_Vod300yujElwN26Qya4E5htovHL9/view?fbclid=IwAR323Qwr5xTH5Nc9DMQSHNZMgemPvpSImN_0ygDcQsrX5SF8uL3h_-zI6po" target="_blank">
+                            <a href="https://drive.google.com/file/d/1oiRzpFRIjdnW4LS0hKN3WsoTFXJt77kh/view?usp=sharing" target="_blank" rel="noreferrer">
                                 <Button variant="primary">Get Resume</Button></a>
                         </Navbar.Collapse>
                     </Navbar>

@@ -1,37 +1,37 @@
 import React from 'react';
-import {Button, Col, Container, Row} from "react-bootstrap";
-import project1 from '../../images/project/coders.jpg';
-import project2 from '../../images/project/emajohn.jpg';
-import project3 from '../../images/project/epl.jpg';
-import project4 from '../../images/project/mobile view.jpg';
-import project5 from '../../images/project/p12.png';
-import project6 from '../../images/project/ride.jpg';
+import { Button, Col, Container, Row } from "react-bootstrap";
+import project5 from '../../images/project/carMechanic.png';
+import project1 from '../../images/project/carsWorld.png';
+import project6 from '../../images/project/doctors.png';
+import project2 from '../../images/project/emaJohn.png';
+import project4 from '../../images/project/rafi.png';
+import project3 from '../../images/project/tourMate.png';
 import './Projects.css';
 
 const portfolioData= [
     {
         image: project1,
-        url: 'https://coders-world-4c0ef.web.app/'
+        url: 'https://cars-world-b8cea.web.app/'
     },
     {
         image: project2,
-        url: 'https://ema-jhon-test.netlify.app/'
+        url: 'https://ema-john-fc5b9.web.app/'
     },
     {
         image: project3,
-        url: 'https://eplteams.netlify.app/'
+        url: 'https://tourmate-acd90.web.app/'
     },
     {
         image: project4,
-        url: 'https://mobile-valley.web.app/'
+        url: 'https://rafi-medicine-center.web.app/'
     },
     {
         image: project5,
-        url: 'https://rkrashu.github.io/penguin.fashion/'
+        url: 'https://genius-car-mechanic-8511c.web.app/'
     },
     {
         image: project6,
-        url: 'https://bd-ride-sharing.firebaseapp.com/'
+        url: 'https://top-doctors.netlify.app/'
     }
 ]
 
@@ -48,7 +48,7 @@ const Projects = () => {
                                 <div className="portfolioCard">
                                     <img className="projectImage" src={data.image} alt=""/>
                                     <div className="middle">
-                                        <a href={data.url} target="_blank">
+                                        <a href={data.url} target="_blank" rel="noreferrer">
                                             <div className="text">Live Preview</div>
                                         </a> <br/>
                                         <Button variant="light">Details</Button>

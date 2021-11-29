@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Col, Container, Row} from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import Typical from 'react-typical';
 import './HomeBanner.css';
 
@@ -15,7 +15,7 @@ const HomeBanner = () => {
                                     <h3 className="hello-title">Hello</h3>
                                     <h1 className="name-title">I'm Rashidul Karim</h1>
                                     <Typical className="skill-title"
-                                             steps={['Web Designer', 3000, 'Web Developer', 3000, 'API Developer']}
+                                             steps={['Full Stack Developer', 3000, 'Front-end Developer', 3000, 'API Developer', 3000, 'Javascript Developer', 3000, 'React Developer', 3000]}
                                              loop={Infinity}
                                              wrapper="p"
                                     />

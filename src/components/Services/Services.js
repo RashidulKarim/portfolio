@@ -1,8 +1,8 @@
-import React from 'react';
-import {Button, Col, Container, Row} from "react-bootstrap";
-import './Service.css';
+import { faArrowRight, faCode, faDatabase, faPencilRuler } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faCode, faArrowRight, faPencilRuler, faDatabase} from "@fortawesome/free-solid-svg-icons";
+import React from 'react';
+import { Col, Container, Row } from "react-bootstrap";
+import './Service.css';
 
 const serviceData = [
     {
@@ -19,6 +19,21 @@ const serviceData = [
         icon: faDatabase,
         title: 'API Development',
         des: 'ualified web design and attractive effects which catches visitor’s Eye.'
+    },
+    {
+        icon: faCode,
+        title: 'MERN Stack Development',
+        des: 'Qualified web design and attractive effects which catches visitor’s Eye.'
+    },
+    {
+        icon: faDatabase,
+        title: 'Front-end Development',
+        des: 'Clean and fresh issue free code to make your website dynamic perfectly.'
+    },
+    {
+        icon: faPencilRuler,
+        title: 'Problem Solving',
+        des: 'ualified web design and attractive effects which catches visitor’s Eye.'
     }
 ]
 
@@ -28,7 +43,7 @@ const Services = () => {
             <Container fluid={true} className="bg-light p-5">
                 <Container className="text-center">
                     <h6 className="title">Services</h6>
-                    <h3 className="mb-4">What We Do</h3>
+                    <h3 className="mb-4">What We Do...</h3>
                     <Row>
                         {
                             serviceData.map(data =>

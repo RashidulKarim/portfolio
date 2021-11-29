@@ -1,10 +1,10 @@
-import React from 'react';
-import './About.css';
-import { Button, Col, Container, Row } from "react-bootstrap";
-import aboutImg from '../../images/Rashidul Karim (1).png'
+import { faFacebookF, faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
+import React from 'react';
+import { Button, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import aboutImg from '../../images/Rashidul Karim (1).png';
+import './About.css';
 
 const About = () => {
     return (
@@ -19,11 +19,11 @@ const About = () => {
                                 <div className="custom-border"> </div>
                                 <div className="experience">
                                     <h6 className="text-center">01 <br /> Year of Experience</h6>
-                                    <a href="https://www.facebook.com/rkrashu" target='_blank'><FontAwesomeIcon className="socialLink" icon={faFacebookF} /></a>
-                                    <a href="https://www.linkedin.com/in/md-rashidul-karim-5a20a656/" target='_blank'>
+                                    <a href="https://www.facebook.com/rkrashu" target='_blank' rel="noreferrer"><FontAwesomeIcon className="socialLink" icon={faFacebookF} /></a>
+                                    <a href="https://www.linkedin.com/in/rashidul-karim/" target='_blank' rel="noreferrer">
                                         <FontAwesomeIcon className="socialLink" icon={faLinkedinIn} />
                                     </a>
-                                    <a href="https://github.com/rkrashu" target='_blank'>
+                                    <a href="https://github.com/RashidulKarim" target='_blank' rel="noreferrer">
                                     <FontAwesomeIcon className="socialLink" icon={faGithub} />
                                     </a>
                                     
@@ -41,12 +41,10 @@ const About = () => {
                             </div>
                             <h3 className="mt-5 mb-4">Hi I'm Web Developer</h3>
 
-                            <p className="text-des mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            <p className="text-des mb-5">Hello I am Rashidul Karim. I have been learning web development since 2020. I have learned so many things in this time. My favorite programing language is Javascript. My goal is to learn modern technology and implement those in my work.
                             </p>
-                            <a href="https://drive.google.com/file/d/1UXo_Vod300yujElwN26Qya4E5htovHL9/view?fbclid=IwAR323Qwr5xTH5Nc9DMQSHNZMgemPvpSImN_0ygDcQsrX5SF8uL3h_-zI6po" target="_blank">
-                                <Button variant="primary">Download CV</Button></a>
+                            <a href="https://drive.google.com/uc?export=download&id=1oiRzpFRIjdnW4LS0hKN3WsoTFXJt77kh" target="_blank" rel="noreferrer">
+                                <Button variant="primary">Download Resume</Button></a>
                             <Link to="/contact"><Button variant="outline-primary" className="ml-3">Contact</Button></Link>
                         </Col>
                     </Row>
